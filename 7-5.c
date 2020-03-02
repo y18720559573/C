@@ -2,9 +2,9 @@
 int main()
 {
     int a,b;
-    double c;
+    int c;
     scanf("%d %d",&a,&b);
-    c = (double)(a * b)/(double)10;
-    printf("%.2f",c);
+    c = (a * b)/10;
+    printf("%d",c);
     return 0;
 }
